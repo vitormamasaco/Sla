@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Comic Sans MS', cursive;
+  background-color: #fff4e6;
+  background-image: url('salgados.jpg'); 
+  background-size: cover;
+  color: #4b2e1e;
+  min-height: 100vh;
+  animation: aparecer 1s ease-in;
+}
+
+
+@keyframes aparecer {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+
+header {
+  background-color: #ffd29c;
+  padding: 20px;
+  border-bottom: 5px dashed #ff7f50;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+nav a {
+  text-decoration: none;
+  background-color: #ffab91;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 15px 15px 0 0;
+  font-weight: bold;
+  box-shadow: 2px 2px 0 #c44536;
+  transition: 0.3s;
+}
+
+nav a:hover,
+nav a.active {
+  background-color: #ff7043;
+  transform: scale(1.05);
+}
+
+
+main {
+  background-color: rgba(255, 255, 255, 0.85);
+  margin: 30px auto;
+  max-width: 900px;
+  padding: 30px;
+  border-radius: 20px;
+  border: 3px dotted #c44536;
+}
+
+h1 {
+  color: #d84315;
+  font-size: 32px;
+  margin-bottom: 20px;
+  text-align: center;
+  text-decoration: underline wavy #ff7043;
+}
+
+p {
+  font-size: 18px;
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
