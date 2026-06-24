@@ -7,7 +7,7 @@
 body {
   font-family: 'Comic Sans MS', cursive;
   background-color: #fff4e6;
-  background-image: url('salgados.jpg'); 
+  background-image: url('images\ \(1\).png'); 
   background-size: cover;
   color: #4b2e1e;
   min-height: 100vh;
@@ -43,7 +43,7 @@ nav a {
   color: #fff;
   padding: 10px 20px;
   border-radius: 15px 15px 0 0;
-  font-weight: bold;
+  font-weight: bold;Massa de pão macia com salsicha no meio. Pode rechear com queijo, ketchup ou até molho caseiro. Muito prático
   box-shadow: 2px 2px 0 #c44536;
   transition: 0.3s;
 }
